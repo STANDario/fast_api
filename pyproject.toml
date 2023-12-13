@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "homework-11"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Stoian <astoyan2002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+fastapi = "^0.104.1"
+psycopg2 = "^2.9.9"
+pydantic = "^2.5.2"
+alembic = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
